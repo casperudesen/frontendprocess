@@ -3,14 +3,11 @@
  *
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 .reveal {
   color: #000 !important; }
-
 @font-face {
-  font-family: 'League Gothic';
-  src: url("../../bower_components/reveal.js/lib/font/league_gothic-webfont.eot");
-  src: url("../../bower_components/reveal.js/lib/font/league_gothic-webfont.eot?#iefix") format("embedded-opentype"), url("../../bower_components/reveal.js/lib/font/league_gothic-webfont.woff") format("woff"), url("../../bower_components/reveal.js/lib/font/league_gothic-webfont.ttf") format("truetype"), url("../../bower_components/reveal.js/lib/font/league_gothic-webfont.svg#LeagueGothicRegular") format("svg");
+  font-family: font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-style: normal; }
 .logo {
@@ -18,7 +15,8 @@
   padding: 1%; }
 
 h1, h2, h3, h4, h5, h6, ol p, ul {
-  color: #000 !important; }
+  color: #000 !important;
+}
 
 .reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
   border-right-color: #fff !important;
@@ -54,7 +52,7 @@ body {
   background-color: #2b2b2b; }
 
 .reveal {
-  font-family: "Lato", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
@@ -76,7 +74,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #eee;
-  font-family: "League Gothic", Impact, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: uppercase;
